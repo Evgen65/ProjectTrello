@@ -30,6 +30,15 @@ public class StartSelenium {
         wd.findElement(By.partialLinkText("HO"));
         wd.findElement(By.id("root"));
 
+        wd.findElement(By.cssSelector("[href='/login']"));
+        wd.findElement(By.cssSelector("[href^='/lo']"));
+        wd.findElement(By.cssSelector("[href*='og']"));
+        wd.findElement(By.cssSelector("[href$='gin']"));
+
+        List<WebElement> buttons = wd.findElements(By.tagName("button"));
+
+
+
 
     }
 
@@ -42,7 +51,7 @@ public class StartSelenium {
     @AfterMethod
     public void postCondition(){
    // wd.close();
-   // wd.quit();
+    wd.quit();
     }
 
 }
