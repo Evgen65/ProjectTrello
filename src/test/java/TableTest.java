@@ -7,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class TableTest {
 
     WebDriver wd;
@@ -25,6 +27,30 @@ public class TableTest {
         String text = canada.getText();
         System.out.println(text);
         Assert.assertEquals(text,"Canada");
+
+        List<WebElement> row4 = wd.findElements(By.cssSelector("#customers tr:nth-child(4) td"));
+        text = "";
+        for(WebElement e : row4){
+            System.out.println(e.getText());
+            text = e.getText();
+            if(text.contains("Mexico")) System.out.println("Yes!");
+        }
+        System.out.println(text.contains("Mexico"));
+
+        List<WebElement> lastCol = wd.findElements(By.cssSelector("#customers td:last-child"));
+        for(WebElement e : lastCol){
+            System.out.println(e.getText());
+        }
+
+        List<WebElement> tr = wd.findElements(By.cssSelector("#customers tr"));
+        for(int i = 0; i < tr.size(); i++){
+
+            if(tr.get(i).getText().contains("Philip Cramer")){
+                System.out.println(i+1);
+                return;
+            }
+
+        }
     }
 
     @AfterMethod
