@@ -11,8 +11,8 @@ public class HelperUser extends HelperBase {
 
     public void initLogin() {
         pause(2000);
-        if (isHomePage()) ;
-        click(By.cssSelector("a[href='/login']"));
+        if (isHomePage())
+            click(By.cssSelector("a[href='/login']"));
     }
 
     public void fillLoginForm(String email, String password) {
@@ -24,15 +24,13 @@ public class HelperUser extends HelperBase {
         fillEmail(user.getEmail());
         fillPassword(user.getPassword());
     }
-
     private void fillPassword(String password) {
         pause(2000);
         type(By.id("password"), password);
     }
-
     private void fillEmail(String email) {
-        if (wd.findElement(By.cssSelector("button.username-change"))
-                .isDisplayed()) {
+        if (wd.findElement(By.cssSelector
+                ("button.username-change")).isDisplayed()) {
             click(By.cssSelector("button.username-change"));
             type(By.name("user"), email);
         } else {
@@ -47,15 +45,18 @@ public class HelperUser extends HelperBase {
     public void submitLoginError() {
         click(By.id("login"));
     }
+
     public boolean isLogged() {
         pause(2000);
         return isElementPresent(By.cssSelector("button[data-testid='header-member-menu-button']"));
     }
-    public void logUot() {
+
+    public void logout() {
         click(By.cssSelector("button[data-testid='header-member-menu-button']"));
         click(By.cssSelector("button[data-testid='header-member-menu-logout']"));
         click(By.id("logout-submit"));
     }
+
     public String getTextErrorEmail() {
         return wd.findElement(By.cssSelector("p.error-message")).getText();
     }

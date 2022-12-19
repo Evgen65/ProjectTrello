@@ -10,7 +10,7 @@ public class LoginTest extends TestBase {
     @BeforeMethod
     public void precondition() {
         if (app.user().isLogged()) {
-            app.user().logUot();
+            app.user().logout();
         }
     }
 

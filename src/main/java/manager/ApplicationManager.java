@@ -9,7 +9,7 @@ public class ApplicationManager {
 
     public void init() {
         wd = new ChromeDriver();
-        //wd.manage().window().maximize();
+        wd.manage().window().maximize();
         wd.navigate().to("https://trello.com");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new HelperUser(wd);
