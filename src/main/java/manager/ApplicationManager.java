@@ -9,17 +9,22 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     WebDriver wd;
     HelperUser user;
     String browser;
 
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
+
     public void init() {
-        if(browser.equals(BrowserType.CHROME)) {
+        if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
             logger.info("Test on CHROME");
-        }else if (browser.equals(BrowserType.FIREFOX)){
-            wd=new FirefoxDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new FirefoxDriver();
+            logger.info("Test on FIREFOX");
 
 
         }
@@ -29,6 +34,7 @@ public class ApplicationManager {
         user = new HelperUser(wd);
 
     }
+
     public void stop() {
         wd.quit();
     }
@@ -36,8 +42,5 @@ public class ApplicationManager {
     public HelperUser user() {
         return user;
     }
-
-    public ApplicationManager(String browser) {
-        this.browser = browser;
-    }
 }
+

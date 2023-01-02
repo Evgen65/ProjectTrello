@@ -79,7 +79,7 @@ public class HelperUser extends HelperBase {
         click((By.cssSelector("button[data-testid='header-member-menu-button']")));
     }
     public void openProfileAndVicability() {
-        click(By.cssSelector("[data-testing='header-member-menu-profile']"));
+        click(By.cssSelector("[data-testid='header-member-menu-profile']"));
     }
     public void navigateToAtlassianProfile() {
         click(By.xpath("//a[text()='Atlassian profile']"));
