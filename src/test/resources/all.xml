@@ -2,11 +2,7 @@
 
 <suite name="qa17" verbose="1" >
     <test name="First" >
-        <groups>
-            <run>
-                <include name="first"/>
-            </run>
-        </groups>
+
         <classes>
             <class name="tests.LoginTest" />
             <class name="tests.ChangeAvatarTest" />
