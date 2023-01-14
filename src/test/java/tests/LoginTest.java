@@ -15,39 +15,35 @@ public class LoginTest extends TestBase {
             app.user().logout();
         }
     }
-
     @Test(groups = {"first,smoke"})
     public void loginSuccess() {
 
         app.user().initLogin();
-        app.user().fillLoginForm("uevgeny1965@gmail.com", "UMarina1969S");
+        app.user().fillLoginForm("gilad.test2022@gmail.com", "UMarina69$");
         app.user().submitLogin();
         Assert.assertTrue(TestBase.app.user().isLogged());
     }
-
     @Test
     public void loginSuccessModel() {
-        User user = new User().withEmail("uevgeny1965@gmail.com").withPassword("UMarina1969S");
+        User user = new User().withEmail("gilad.test2022@gmail.com").withPassword("UMarina69$");
         app.user().initLogin();
         app.user().fillLoginForm(user);
         app.user().submitLogin();
         //app.user().pause(1000);
         Assert.assertTrue(TestBase.app.user().isLogged());
     }
-
     @Test
     public void loginNegativeWithWrongEmailModel() {
-        User user = new User().withEmail("uevgeny1965gmail.com").withPassword("UMarina1969S");
+        User user = new User().withEmail("gilad.test2022@gmail.com").withPassword("UMarina69$");
         app.user().initLogin();
         app.user().fillLoginForm(user);
         app.user().submitLoginError();
         Assert.assertFalse(TestBase.app.user().isLogged());
         Assert.assertTrue(TestBase.app.user().getTextErrorEmail().contains("There isn't an account for this username"));
     }
-
     @Test
     public void loginNegativeWithWrongPassWordModel() {
-        User user = new User().withEmail("uevgeny1965@gmail.com").withPassword("UMar");
+        User user = new User().withEmail("gilad.test2022@gmail.com").withPassword("UMar");
         app.user().initLogin();
         app.user().fillLoginForm(user);
         app.user().submitLogin();
