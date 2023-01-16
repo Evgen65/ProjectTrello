@@ -18,7 +18,7 @@ public class ChangeAvatarTest extends TestBase {
         app.user().openProfileAndVicability();
         app.user().navigateToAtlassianProfile();
         app.user().initChangeAvatar();
-        app.user().uploadPhoto("src/test/resources/avatar.jpg");
+        app.user().uploadPhoto("C:\\repositoris\\ProjectTrelloVebinar\\src\\test\\resources\\avatar.jpg");
         Assert.assertTrue(app.user().isAvatarAdded());
         app.user().returnToTrelloHome();
 }

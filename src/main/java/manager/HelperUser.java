@@ -85,7 +85,7 @@ public class HelperUser extends HelperBase {
     }
 
     public void openProfileAndVicability() {
-        click(By.cssSelector("[data-testid='header-member-menu-profile']"));
+        click(By.cssSelector("[data-testid='account-menu-profile']"));
     }
 
     public void navigateToAtlassianProfile() {

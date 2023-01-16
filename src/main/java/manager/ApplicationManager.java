@@ -14,6 +14,7 @@ public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     EventFiringWebDriver wd;
     HelperUser user;
+    HelperBoard board;
     String browser;
 
     public ApplicationManager(String browser) {
@@ -30,10 +31,13 @@ public class ApplicationManager {
 
 
         }
+        wd.register(new MyListener());
+
         wd.manage().window().maximize();
         wd.navigate().to("https://trello.com");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new HelperUser(wd);
+        board = new HelperBoard(wd);
 
     }
 
@@ -43,6 +47,9 @@ public class ApplicationManager {
 
     public HelperUser user() {
         return user;
+    }
+    public HelperBoard board(){
+        return board;
     }
 }
 
