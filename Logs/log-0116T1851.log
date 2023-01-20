@@ -1,0 +1,38 @@
+18:51:16. INFO  manager.ApplicationManager - Test on CHROME
+18:51:18. INFO  manager.ApplicationManager - Base Url is ---->https://trello.com
+18:51:20. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+18:51:25. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+18:51:25. INFO  manager.ApplicationManager - I used email--->gilad.test2022@gmail.com
+18:51:25. INFO  manager.ApplicationManager - I used password--->UMarina69$
+18:51:27. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: a[href='/login']
+18:51:27. INFO  manager.MyListener - The element with locator --->By.cssSelector: a[href='/login']was found
+18:51:28. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+18:51:28. INFO  manager.MyListener - The element with locator --->By.cssSelector: button.username-changewas found
+18:51:28. INFO  manager.MyListener - Start search element by locator --->By.name: user
+18:51:28. INFO  manager.MyListener - The element with locator --->By.name: userwas found
+18:51:28. INFO  manager.MyListener - Start search element by locator --->By.id: login
+18:51:28. INFO  manager.MyListener - The element with locator --->By.id: loginwas found
+18:51:31. INFO  manager.MyListener - Start search element by locator --->By.id: password
+18:51:32. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+18:51:32. INFO  manager.MyListener - Start search element by locator --->By.id: login-submit
+18:51:32. INFO  manager.MyListener - The element with locator --->By.id: login-submitwas found
+18:51:32. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+18:51:38. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+18:51:38. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+18:51:38. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+18:51:38. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [data-testid='account-menu-profile']
+18:51:38. INFO  manager.MyListener - The element with locator --->By.cssSelector: [data-testid='account-menu-profile']was found
+18:51:38. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='Atlassian profile']
+18:51:38. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='Atlassian profile']was found
+18:51:39. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [data-test-selector='profile-hover-info']
+18:51:40. INFO  manager.MyListener - The element with locator --->By.cssSelector: [data-test-selector='profile-hover-info']was found
+18:51:41. INFO  manager.MyListener - Start search element by locator --->By.xpath: //*[text()='Change profile photo']
+18:51:41. INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Change profile photo']was found
+18:51:41. INFO  manager.MyListener - Start search element by locator --->By.id: image-input
+18:51:41. INFO  manager.MyListener - The element with locator --->By.id: image-inputwas found
+18:51:41. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button/span[text()='Upload']
+18:51:41. INFO  manager.MyListener - The element with locator --->By.xpath: //button/span[text()='Upload']was found
+18:51:42. INFO  manager.MyListener - Start search element by locator --->By.xpath: //span[text()='Avatar added']
+18:51:46. INFO  manager.MyListener - The element with locator --->By.xpath: //span[text()='Avatar added']was found
+18:51:46. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [aria-label='Back to home']
+18:51:46. INFO  manager.MyListener - The element with locator --->By.cssSelector: [aria-label='Back to home']was found

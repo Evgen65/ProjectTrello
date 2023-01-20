@@ -1,0 +1,103 @@
+17:27:22. INFO  manager.ApplicationManager - Test on CHROME
+17:27:27. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:27:32. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:27:34. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: a[href='/login']
+17:27:34. INFO  manager.MyListener - The element with locator --->By.cssSelector: a[href='/login']was found
+17:27:36. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+17:27:36. INFO  manager.MyListener - The element with locator --->By.cssSelector: button.username-changewas found
+17:27:36. INFO  manager.MyListener - Start search element by locator --->By.name: user
+17:27:36. INFO  manager.MyListener - The element with locator --->By.name: userwas found
+17:27:36. INFO  manager.MyListener - Start search element by locator --->By.id: login
+17:27:36. INFO  manager.MyListener - The element with locator --->By.id: loginwas found
+17:27:38. INFO  manager.MyListener - Start search element by locator --->By.id: password
+17:27:39. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+17:27:40. INFO  manager.MyListener - Start search element by locator --->By.id: login
+17:27:45. INFO  manager.MyListener - Something went wrong!!!
+17:27:45. INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=id, value=login}
+17:27:45. INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=id, value=login}
+17:27:45. INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1665.png
+17:27:47. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:27:52. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:27:54. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+17:27:59. INFO  manager.MyListener - Something went wrong!!!
+17:27:59. INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:27:59. INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:27:59. INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1679.png
+17:28:02. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:28:07. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:28:09. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+17:28:14. INFO  manager.MyListener - Something went wrong!!!
+17:28:14. INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:28:14. INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:28:14. INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1694.png
+17:28:16. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:28:21. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:28:23. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+17:28:28. INFO  manager.MyListener - Something went wrong!!!
+17:28:28. INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:28:28. INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button.username-change"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ARMCA8P', ip: '10.0.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\uevge\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b39b00a776c46742413a2fcbd3ad00
+*** Element info: {Using=css selector, value=button.username-change}
+17:28:28. INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1708.png

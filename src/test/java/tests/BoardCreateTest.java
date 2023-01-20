@@ -19,7 +19,8 @@ public class BoardCreateTest extends TestBase{
         Random random = new Random();
         int i = random.nextInt(100)+100;
         Board board = Board.builder().title("GreenBoard-"+i).color("Green").build();
-      //  logger.info("Tests start with board --> " +board.toString());
+
+       logger.info("Tests start with board --> " +board.toString());
 
         app.board().initBoardCreation();
         app.board().fillBoardCreationForm(board);
@@ -30,7 +31,7 @@ public class BoardCreateTest extends TestBase{
         Random random = new Random();
         int i = random.nextInt(100)+100;
         Board board = Board.builder().title("PinkBoard-"+i).color("Pink").build();
-       // logger.info("Tests start with board --> " +board.toString());
+        logger.info("Tests start with board --> " +board.toString());
 
         app.board().initBoardCreation();
         app.board().fillBoardCreationForm(board);

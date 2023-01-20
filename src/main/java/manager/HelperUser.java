@@ -111,7 +111,8 @@ public class HelperUser extends HelperBase {
 
 
     public boolean isAvatarAdded() {
-        WebElement until = new WebDriverWait(wd, 7).until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//span[text()='Avatar added']"))));
+        WebElement until = new WebDriverWait(wd, 7).
+                until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//span[text()='Avatar added']"))));
         return until.isDisplayed();
     }
 
@@ -123,7 +124,7 @@ public class HelperUser extends HelperBase {
     }
 
     public void openProfileAndVisability() {
-        click(By.cssSelector("[data-testid='header-member-menu-profile']"));
+        click(By.cssSelector("[data-testid='account-menu-profile']"));
     }
 
     public void navigateToAtlassianPtofile() {

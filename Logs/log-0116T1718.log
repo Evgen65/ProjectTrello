@@ -1,0 +1,35 @@
+17:18:17. INFO  manager.ApplicationManager - Test on CHROME
+17:18:22. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:18:27. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:18:29. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: a[href='/login']
+17:18:29. INFO  manager.MyListener - The element with locator --->By.cssSelector: a[href='/login']was found
+17:18:31. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button.username-change
+17:18:31. INFO  manager.MyListener - The element with locator --->By.cssSelector: button.username-changewas found
+17:18:31. INFO  manager.MyListener - Start search element by locator --->By.name: user
+17:18:31. INFO  manager.MyListener - The element with locator --->By.name: userwas found
+17:18:31. INFO  manager.MyListener - Start search element by locator --->By.id: login
+17:18:31. INFO  manager.MyListener - The element with locator --->By.id: loginwas found
+17:18:34. INFO  manager.MyListener - Start search element by locator --->By.id: password
+17:18:35. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+17:18:35. INFO  manager.MyListener - Start search element by locator --->By.id: login-submit
+17:18:35. INFO  manager.MyListener - The element with locator --->By.id: login-submitwas found
+17:18:35. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:18:42. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:18:42. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: button[data-testid='header-member-menu-button']
+17:18:42. INFO  manager.MyListener - The element with locator --->By.cssSelector: button[data-testid='header-member-menu-button']was found
+17:18:42. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [data-testid='account-menu-profile']
+17:18:42. INFO  manager.MyListener - The element with locator --->By.cssSelector: [data-testid='account-menu-profile']was found
+17:18:42. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='Atlassian profile']
+17:18:43. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='Atlassian profile']was found
+17:18:44. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [data-test-selector='profile-hover-info']
+17:18:45. INFO  manager.MyListener - The element with locator --->By.cssSelector: [data-test-selector='profile-hover-info']was found
+17:18:46. INFO  manager.MyListener - Start search element by locator --->By.xpath: //*[text()='Change profile photo']
+17:18:46. INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Change profile photo']was found
+17:18:46. INFO  manager.MyListener - Start search element by locator --->By.id: image-input
+17:18:46. INFO  manager.MyListener - The element with locator --->By.id: image-inputwas found
+17:18:46. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button/span[text()='Upload']
+17:18:46. INFO  manager.MyListener - The element with locator --->By.xpath: //button/span[text()='Upload']was found
+17:18:47. INFO  manager.MyListener - Start search element by locator --->By.xpath: //span[text()='Avatar added']
+17:18:51. INFO  manager.MyListener - The element with locator --->By.xpath: //span[text()='Avatar added']was found
+17:18:52. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [aria-label='Back to home']
+17:18:52. INFO  manager.MyListener - The element with locator --->By.cssSelector: [aria-label='Back to home']was found

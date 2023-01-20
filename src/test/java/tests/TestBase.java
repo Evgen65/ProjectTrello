@@ -3,15 +3,20 @@ package tests;
 import manager.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
+
+import java.io.IOException;
 
 public class TestBase {
 
     WebDriver wd;
     public static ApplicationManager app = new ApplicationManager(System.getProperty("browser",BrowserType.CHROME));
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     @BeforeSuite(alwaysRun = true)
-    public void setUp() {
+    public void setUp() throws IOException {
         app.init();
     }
 
